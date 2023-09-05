@@ -1,0 +1,421 @@
+/* Cash app */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap");
+@import "./font.css";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+
+.cash-app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1366px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--light-white, #fff);
+}
+.hero-section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.eye-button {
+  position: absolute;
+  top: 23.85px;
+  right: 62.5px;
+  gap: 20px;
+  width: 64px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 34px;
+  right: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 18px;
+  gap: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.cashapp-logo {
+  position: absolute;
+  top: 18px;
+  left: 60px;
+  width: 30px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.sign-in {
+  color: #fff;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.legal {
+  color: #fff;
+
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.licenses {
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.security {
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.careers {
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.press {
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.support {
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.status {
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.codeblog {
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.lining {
+  flex-shrink: 0;
+  fill: #fff;
+}
+.cube1 {
+  position: absolute;
+  left: 172px;
+  right: 1120px;
+  bottom: 558.65px;
+}
+
+.cube1Img {
+  width: 74px;
+  height: 73.212px;
+  flex-shrink: 0;
+}
+
+.Stairs {
+  position: absolute;
+  right: 187px;
+  bottom: 371.1px;
+}
+
+.StairsImg {
+  width: 200px;
+  height: 260.904px;
+  flex-shrink: 0;
+}
+
+.phone {
+  position: absolute;
+  right: 554px;
+  bottom: 82.92px;
+}
+.phoneImg {
+  width: 370px;
+  height: 453.083px;
+  flex-shrink: 0;
+}
+
+.cashtxt {
+  position: absolute;
+  bottom: 232.71px;
+  right: 400px;
+  display: flex;
+  width: 711px;
+  height: 302.875px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+  font-size: 193px;
+
+  font-style: normal;
+  font-weight: 800;
+  line-height: 166px; /* 86.01% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.apptxt {
+  position: absolute;
+  bottom: 76.58px;
+  right: 387px;
+  display: flex;
+  width: 711px;
+  height: 302.875px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+  font-size: 193px;
+
+  font-style: normal;
+  font-weight: 800;
+  line-height: 166px; /* 86.01% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  z-index: 10000000;
+}
+.cube2 {
+  position: absolute;
+  left: 152px;
+  right: 1026px;
+  bottom: 56.23px;
+}
+.cube2Img {
+  width: 188px;
+  height: 176.478px;
+  flex-shrink: 0;
+}
+
+.piller {
+  position: absolute;
+  right: 314px;
+  bottom: 0;
+}
+.pillerImg {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.footer {
+  width: 1243px;
+  height: 65px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 60px;
+  right: 63px;
+  bottom: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.downloadButton {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.appStore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  padding: 25px;
+  border: 1px solid #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+.appleImg {
+  width: 19.221px;
+  height: 22.819px;
+  flex-shrink: 0;
+  fill: #00d54b;
+}
+.label,
+.label-1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Agrandir-GrandHeavy", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.googleStore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  padding: 12px;
+  border: 1px solid #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.googleImg {
+  width: 19.455px;
+  height: 21.224px;
+  flex-shrink: 0;
+  fill: #00d54b;
+}
+
+.downArrowImg {
+  width: 18px;
+  height: 30px;
+  flex-shrink: 0;
+  fill: #00d54b;
+}
+
+.downArrow {
+  position: absolute;
+  left: 613px;
+  right: 612px;
+  top: 18px;
+  bottom: 17px;
+  cursor: pointer;
+}
+
+.paratext {
+  position: absolute;
+  left: 718px;
+  right: 162px;
+}
+.brokerage-services {
+  width: 363px;
+  color: #b6b6b6;
+  font-family: Mulish;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13px; /* 130% */
+}
+
+.socialIcon {
+  position: absolute;
+  right: 0.5px;
+  top: 21px;
+  bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.botImg {
+  width: 24px;
+  height: 24px;
+}
+
+.twitterImg {
+  width: 21px;
+  height: 17px;
+}
+.instagramImg {
+  width: 21px;
+  height: 21px;
+}
+
+@media (min-width: 1367px) {
+  .cash-app {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+
+    background-color: #000;
+  }
+}

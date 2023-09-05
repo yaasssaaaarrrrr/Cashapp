@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Agrandir-GrandHeavy";
+  src: url("./Agrandir-GrandHeavy.otf") format("opentype");
+  /* You can specify other font formats (e.g., woff, woff2, ttf) for cross-browser compatibility */
+}
